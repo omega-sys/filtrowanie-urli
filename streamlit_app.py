@@ -7,6 +7,7 @@ import os
 st.title('Filtrowanie arkusza Excel')
 
 st.html('Skrypt filtruje arkusz excela zgodnie z wybraną przez nas kolumną oraz podanymi adresami url. <br /> W pole można również wkleić zwykłe frazy. Finalny plik zawiera wiersze zgodne z filtrem, nawet jeżeli występują w danej kolumnie wielokrotnie.')
+st.html('Działa tylko z plikami xlsx. Muszą mieć nazwy kolumn. Filtrowanie dopasowuje wartości 1:1, dlatego należy zwrócić uwagę czy protokoły w urlach się zgadzają.')
 
 # Wczytaj plik Excel
 uploaded_file = st.file_uploader("Wybierz plik Excel", type="xlsx")
