@@ -1,8 +1,11 @@
 # ⚡ Filtrowanie fraz - xls
 
-A simple Streamlit app template for you to modify!
+Skrypt filtruje arkusz excela zgodnie z wybraną przez nas kolumną oraz podanymi adresami url.
+W pole można również wkleić zwykłe frazy. Finalny plik zawiera wiersze zgodne z filtrem, nawet jeżeli występują w danej kolumnie wielokrotnie.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Działa tylko z plikami xlsx. Muszą mieć nazwy kolumn. Filtrowanie dopasowuje wartości 1:1, dlatego należy zwrócić uwagę czy protokoły w urlach się zgadzają.
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://filtrowanie-urli-pp.streamlit.app/)
 
 ### How to run it on your own machine
 
