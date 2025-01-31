@@ -1,4 +1,4 @@
-# 🎈 Blank app template
+# ⚡ Filtrowanie fraz - xls
 
 A simple Streamlit app template for you to modify!
 
